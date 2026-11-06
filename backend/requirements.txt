@@ -1,0 +1,32 @@
+# Django and REST API
+Django>=5.2,<5.3
+djangorestframework>=3.15,<4.0
+djangorestframework-simplejwt>=5.3,<6.0
+django-filter>=24.3,<26.0
+django-cors-headers>=4.6,<5.0
+drf-spectacular>=0.28,<1.0
+
+# PostgreSQL and environment
+psycopg[binary]>=3.2,<4.0
+django-environ>=0.11,<1.0
+
+# Static files, images and optional integrations
+whitenoise>=6.8,<7.0
+Pillow>=11.0,<13.0
+cloudinary>=1.41,<2.0
+django-cloudinary-storage>=0.3,<1.0
+razorpay>=1.4,<2.0
+
+# Production server
+gunicorn>=23.0,<24.0
+
+# Development and testing
+django-debug-toolbar>=4.4,<7.0
+pytest>=8.3,<9.0
+pytest-django>=4.9,<5.0
+coverage>=7.6,<8.0
+factory-boy>=3.3,<4.0
+
+
+
+whitenoise
